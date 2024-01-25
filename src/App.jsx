@@ -1,6 +1,5 @@
 import { Home } from "./pages/home"
-import { contexts } from '../store';
-import { GlobalContext } from "../assets/exports";
+import { GlobalContext, contexts } from './assets/exports';
 
 function App() {
 
