@@ -3,10 +3,7 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background: rgb(168,53,15);
-  background: linear-gradient(90deg, rgba(168,53,15,1) 0%, rgba(192,94,15,1) 10%, rgba(255,255,255,1) 56%);
+  background: whitesmoke;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -19,7 +16,6 @@ body {
   padding: 0;
   box-sizing: border-box;
   display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
