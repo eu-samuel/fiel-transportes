@@ -2,7 +2,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 
 export const Header = () => {
     return (
-        <header className="flex w-[100vw] items-center text-white bg-header">
+        <header className="flex w-[100vw]  h-[8vh] items-center text-white bg-header">
     
                 <ul className="flex gap-[4vw] relative items-center left-[38vw]">
                     <li className="li">Sobre nós</li>
