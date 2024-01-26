@@ -1,18 +1,20 @@
 import { Header } from "../components/header"
 import { Footer } from "../components/footer"
-import Logo from '../assets/logo.gif'
 import { ContactForm } from '../components/contactForm'
 
 export const Home = () => {
     return (
         <>
             <Header />
-            <div className="flex items-center">
-                <ContactForm/>
-                <img src={Logo} alt="Logo da Fiel Transportes"
-                    className="w-[45vw] ml-[50vw]"
-                />
-            </div>
+            <section className="flex items-center w-[100vw] bg-home bg-cover 
+            justify-center h-[92vh]">
+                <article className="text-white w-[50vw] mt-[4vh] mr-[3.5vw]">
+                    Somos uma empresa de transporte e armazenagem localizada em Araruama
+                    que busca sempre atender as necessidades de nossos clientes e parceiros da
+                    melhor maneira possível.
+                </article>
+                <ContactForm />
+            </section>
         </>
     )
 }

@@ -2,10 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-.input{
-    @apply bg-red-600 placeholder-white w-[25vw] h-[5vh] text-[16px] border-white border-b-[1px] pl-2
+.home-input{
+    @apply bg-white text-black pl-3 w-[20vw] h-[4vh] text-[14px] border-white border-b-[1px] 
+
 }
 
+
 .textarea{
-    @apply bg-white w-[25vw] h-[20vh] border-gray-200 border-b-[1px] rounded-[4px] p-4 
+    @apply bg-white text-black  placeholder-black w-[20vw] h-[15vh] border-gray-200 border-b-[1px] rounded-[4px] p-4 
+}
+
+.li{
+    @apply  font-semibold duration-75 hover:text-[#b0b1c5] cursor-pointer
+}
+
+.label{
+    @apply  flex flex-col mt-[2vh] text-[.9vw] gap-2
 }
