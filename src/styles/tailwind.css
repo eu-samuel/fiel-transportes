@@ -13,7 +13,7 @@
 }
 
 .li{
-    @apply  font-semibold duration-75 hover:text-[#b0b1c5] cursor-pointer
+    @apply  font-semibold duration-150 h-[8vh] flex items-center justify-center p-2  hover:bg-red-600 cursor-pointer text-[18px]
 }
 
 .label{

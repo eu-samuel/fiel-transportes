@@ -5,8 +5,8 @@ module.exports = {
   theme: {
     extend: {},  
     backgroundImage: {
-      'header': "url('https://i.ibb.co/RbDwk1V/header.jpg')",
-      'home': "url('https://i.ibb.co/k0kKCt6/home.jpg')"
+      'header': "url('./src/assets/header.jpg')",
+      'home': "url('./src/assets/home.jpg')"
      },
      fontFamily: {
       'roboto': 'Roboto'
